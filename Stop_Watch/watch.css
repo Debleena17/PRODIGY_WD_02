@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Pictures/city_night.jpg");
+    background-position: center;
+    background-size: cover;     /* this helped in the proper display of the background image*/
+    position: relative;
+}
+
+#top{
+    height: 30vh;
+    padding: 40px;
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#top h1{
+    font-size: 80px;
+    font-family: 'Abril Fatface', serif;
+}
+
+
+#stop_watch_container {
+    margin-top: 150px;
+    text-align: center;
+    background: transparent;
+    /* background: rgba(255, 255, 255, 0.2); Slightly translucent background */
+    border-radius: 16px;
+    padding: 50px;
+    /*backdrop-filter: blur(10px);  Blur effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+    h1{
+        color: #fff;
+    }
+}
+
+#top {
+    margin-bottom: 20px;
+}
+
+.time {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #fff; /* Adjust as needed for contrast */
+}
+
+#start, #stop, #reset, #areset, #clock{
+    font-size: 3.5vmin;
+    color: black;
+    background-color: #fff;
+    border-radius: 22px;
+    width: 100px;
+}
+
+.end {
+    bottom: 0;    /* this is the thing that fixed my footer to the end of page alongwith position:fixed.*/
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.info_container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
