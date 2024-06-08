@@ -1,3 +1,5 @@
+# PRODIGY_WD_02
+
 # Stopwatch Project
 
 This project is a functional and visually appealing stopwatch web application. It includes a sleek user interface, start/stop/reset functionality, and is styled with modern design principles. The stopwatch displays time in the format of hours, minutes, seconds, and centi-seconds.
